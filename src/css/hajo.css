@@ -1,0 +1,80 @@
+.hajo {
+  --hajo-ink: #163f50;
+  --hajo-muted: #476b77;
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+  width: min(100%, 420px);
+  margin: 24px auto;
+  padding: 22px 12px 16px;
+  overflow: hidden;
+  border: 1px solid #c5e3e6;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #ffffff 10%, #eef9f8 65%, #dceff3);
+  color: var(--hajo-ink);
+  box-shadow: 0 16px 40px -20px rgb(25 94 112 / 30%);
+  text-align: left;
+}
+
+/* A sea-glass accent and soft wave along the bottom of the card. */
+.hajo::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 6px;
+  background: linear-gradient(90deg, #237b98, #6bbfb8, #cce9dc);
+}
+
+.hajo::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 140%;
+  height: 100px;
+  right: -25%;
+  bottom: -72px;
+  border-radius: 50%;
+  background: rgb(82 164 183 / 12%);
+  transform: rotate(-8deg);
+  pointer-events: none;
+}
+
+.hajo h2 {
+  margin: 0 0 14px;
+  color: var(--hajo-ink);
+  font-size: 1.1rem;
+  font-weight: 650;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  overflow-wrap: anywhere;
+}
+
+.hajo p {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+  padding: 10px 0;
+  border-top: 1px solid rgb(53 119 135 / 16%);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.hajo p:last-child {
+  padding-bottom: 0;
+}
+
+.hajo p span {
+  color: var(--hajo-muted);
+  font-weight: 400;
+}
+
+@media (max-width: 480px) {
+  .hajo {
+    width: calc(100% - 32px);
+    padding: 28px 20px 20px;
+    border-radius: 20px;
+  }
+}
