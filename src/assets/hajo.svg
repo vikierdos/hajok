@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title>Hajó</title>
+  <path fill="#237b98" d="M13 57h70l-8 14H23z"/>
+  <path fill="#163f50" d="M18 71h60c-5 8-13 12-30 12S23 79 18 71Z"/>
+  <path fill="#6bbfb8" d="M47 20h4v37h-4zM51 23l24 28H51z"/>
+  <path fill="#cce9dc" d="M46 25 27 51h19z"/>
+  <path fill="none" stroke="#163f50" stroke-linecap="round" stroke-width="4" d="M10 84c8-4 15-4 23 0s15 4 23 0 15-4 23 0"/>
+</svg>

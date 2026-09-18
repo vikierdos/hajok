@@ -7,6 +7,7 @@ export interface HajoTipus{
     valodi: boolean
     szin: Hajoszin
     leiras: string
+    kep: string
 }
 
 export const HAJOLISTA:HajoTipus[] = [
@@ -17,6 +18,7 @@ export const HAJOLISTA:HajoTipus[] = [
         kapitany:"Jack Sparrow",
         valodi: false,
         leiras:"A Fekete Gyöngy egy híres kalózhajó a Karib-tenger térségében, amelyet a kalózkapitány Jack Sparrow vezetett. A hajó híres volt a gyorsaságáról és a kalózkodásról, és az egyik legismertebb hajó a filmekben",
+        kep: '/hajok/kepek/fekete-gyongy.png',
     }
     ,{
         id: 18,
@@ -25,6 +27,7 @@ export const HAJOLISTA:HajoTipus[] = [
         kapitany:"Davy Jones",
         valodi: false,
         leiras:"A Bolygó Hollandi egy legendás hajó a tengerészek körében, amely a tenger mélyén kísérti a hajósokat, akik elmerülnek a tengerben és soha nem térnek vissza. A hajó híres volt a rejtélyes eltűnéséről és a kalózkodásról.",
+        kep: '/hajok/kepek/bolygo-hollandi.png',
     }
     ,{
         id: 37,
@@ -33,6 +36,7 @@ export const HAJOLISTA:HajoTipus[] = [
         kapitany:"Leonardo DiCaprio",
         valodi: true,
         leiras:"A Titanic egy híres óceánjáró hajó, amely 1912-ben süllyedt el, és az egyik legismertebb hajó a történelemben. A hajó híres volt a luxusáról és a kényelméről, és az egyik legismertebb hajó a történelemben",
+        kep: '/hajok/kepek/titanic.png',
     }
     ,{
         id: 46,
@@ -41,6 +45,7 @@ export const HAJOLISTA:HajoTipus[] = [
         kapitany:"Sir Francis Drake",
         valodi: true,
         leiras:"A Golden Hind egy híres kalózhajó, amely a 16. században működött, és Sir Francis Drake kapitány vezette. A hajó híres volt a kalózkodásról és a felfedező utazásairól.",
+        kep: '/hajok/kepek/golden-hind.png',
     }
     ,{
         id: 10,
@@ -49,6 +54,7 @@ export const HAJOLISTA:HajoTipus[] = [
         kapitany:"Sir John Smith",
         valodi: true,
         leiras:"A Queen Mary egy híres óceánjáró hajó, amely a 20. században működött, és a világ egyik legnagyobb hajója volt. A hajó híres volt a luxusáról és a kényelméről.",
+        kep: '/hajok/kepek/queen-mary.png',
     }
     ,{
         id: 76,
@@ -57,6 +63,7 @@ export const HAJOLISTA:HajoTipus[] = [
         kapitany:"Christopher Jones",
         valodi: true,
         leiras:"A Mayflower egy híres hajó, amely az amerikai telepesek számára szállította az első telepeseket az Újvilágba. A hajó híres volt a kalandokról és a felfedező utazásairól.",
+        kep: '/hajok/kepek/mayflower.png',
     }
     ,{
         id: 45,
@@ -65,6 +72,7 @@ export const HAJOLISTA:HajoTipus[] = [
         kapitany:"Christopher Columbus",
         valodi: true,
         leiras:"The Santa Maria egy híres hajó, amelyet Christopher Columbus használt az Újvilág felfedezésére és az egyik legismertebb hajó a történelemben. A hajó híres volt a felfedező utazásairól és a kalózkodásról, és az egyik legismertebb hajó a történelemben",
+        kep: '/hajok/kepek/santa-maria.png',
     }
     ,{
         id: 72,
@@ -73,5 +81,6 @@ export const HAJOLISTA:HajoTipus[] = [
         kapitany:"Benjamin Briggs",
         valodi: true,
         leiras:"The Mary Celeste egy híres hajó, amelyet Benjamin Briggs vezetett. Szerencsétlenül elhagyott hajóként vált ismertté, és az egyik legismertebb hajó a történelemben. A hajó híres volt a rejtélyes eltűnéséről és a kalózkodásról.",
+        kep: '/hajok/kepek/mary-celeste.png',
     }
 ] 
